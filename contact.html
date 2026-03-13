@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="contact">
+        <form>
+            <div class="title">
+                <img class="icon" src="images/icon_db.png" alt="メールのアイコン"> Contact<span class="space-right">お問い合わせ</span>
+            </div>
+            <div class="box">    
+                <table>
+                    <tr>
+                        <th><div>お名前<span class="Required">必須</span></div></th>
+                        <td><input type="text"name="subject" placeholder="例）鈴木　一郎"></td>
+                    </tr>
+                    <tr>
+                    <th><div>ふりがな<span class="Required"> 必須</span></div></th>
+                        <td><input type="text"name="subject" placeholder="例）すずき　いちろう"></td>
+                    </tr>
+                    <tr>
+                        <th><div>メールアドレス<span class="Required"> 必須</span></div></th>
+                        <td><input type="email"name="email" placeholder="例）websenyo@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <th><div>会社名<span class="any"> 任意</span></div></th>
+                        <td><input type="email"name="email" placeholder="例）株式会社〇〇"></td>
+                    </tr>
+                    <tr>
+                        <th><div>お問い合わせ内容<span class="Required"> 必須</span></div></th>
+                        <td><textarea name="message" placeholder="例）お問い合わせ内容をご記入ください"></textarea></td>
+                    </tr>  
+                    <tr>
+                        <th></th>
+                        <td><input type="submit" value="この内容で送信する" class="submit"></div></td>
+                    </tr>      
+                </table>
+            </div>
+        </form>
+        <div class="footer-contact">    
+            <h1>Kumazaki Shoko</h1>
+            <nav  class="footer-nav">
+                <ul  class="flex">
+                    <li><a href=""><img class="icon" src="images/icon_a.png" alt="人物のアイコン"> Profile</a></li>
+                    <li><a href=""><img class="icon" src="images/icon_b.png" alt="豆電球のアイコン"> About</a></li>
+                    <li><a href=""><img class="icon" src="images/icon_pc.png" alt="ノート㍶のアイコン"> Works</a></li>
+                    <li><a href=""><img class="icon" src="images/icon_mail.png" alt="メールのアイコン"> Contact</a></li>
+                    <li><a href=""><img class="icon" src="images/icon_e.png" alt="Instagram"><span><img src="images/icon_f.png" alt="twitter"></span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div  class="footer-right">
+            Kumazaki Shoko Portfolio 2026
+        </div>
+    </section>
+</body>
