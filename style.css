@@ -62,12 +62,14 @@ a:active{
   width: 50%;
   height: auto;
   margin-top: 200px;
+  padding-left: 20px;
   font-size: 38px;
   font-weight: bold;
   color: #F9F5EC;
 }
 
 .hero-text{
+  padding-left: 20px;
   line-height: 2;
   color: #F9F5EC;
   font-weight: bold;
@@ -85,7 +87,7 @@ a:active{
   max-width: 1280px;
   height: auto;
   background-color: #B6CBBD;
-    padding: 100px;
+  padding: 100px;
 }
 
 .sec-01list{
@@ -100,7 +102,6 @@ a:active{
   width: 300px;
   height: 50px;
   margin-bottom: 30px;
-  /* background: rgba(255, 255, 255, 0.25); 透明背景色 */
   font-size: 24px;
   font-weight: bold;
   align-items: center;
@@ -154,7 +155,7 @@ a:active{
 .sec-02{
   max-width: 1280px;
   height: auto;
-  padding: 60px 20px;
+  padding: 100px;
   background-color: #f9f5ec;
   font-family: 'Noto Serif', serif;
 }
@@ -397,79 +398,7 @@ nav{
   gap: 10px;
 }
 
-.sec-04 form {
-  max-width: 700px;  /* フォーム幅 */
-  margin: 0 auto;
-}
 
-.Required{
-  margin-left: 5px;
-  padding: 2px;
-  color: #F9F5EC;
-  background-color: #B8001F;
-}
-
-.any{
-  margin-left: 5px;
-  padding: 2px;
-  color: #F9F5EC;
-  background-color: gray;
-}
-
-.sec-04 table{
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.sec-04 th{
-  width: 30%;
-  text-align: left;
-  vertical-align: top;
-  padding: 10px;
-  font-weight: normal;
-}
-
-th div{
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 35px;
-  align-items: center;
-  color: black;
-}
-
-.sec-04 td{
-  padding: 10px;
-}
-
-.sec-04 input[type="text"],
-.sec-04 input[type="email"],
-.sec-04 textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 14px;
-  box-sizing: border-box;
-}
-
-.sec-04 textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-.sec-04 .submit {
-  background-color: #333;
-  color: #fff;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.sec-04 .submit:hover {
-  background-color: #555;
-}
 
 .ue{
   
@@ -506,7 +435,7 @@ th div{
 }
 
 .sec-04 {
-  padding: 60px 20px;
+  padding: 100px;
   background-color: #f9f5ec;
   font-family: 'Noto Serif', serif;
   max-width: 1280px;
@@ -634,6 +563,7 @@ th div{
   .sec-04 .title {
     font-size: 24px;
   }
+
 
   .sec-04 th {
     width: 35%;
