@@ -98,13 +98,16 @@ a:active{
 }
 
 .title{
-  color: #4B4B4B;
   width: 300px;
   height: 50px;
   margin-bottom: 30px;
+  color: #4B4B4B;
   font-size: 24px;
   font-weight: bold;
   align-items: center;
+}
+.sp{
+  padding-bottom: 30px;
 }
 
 .space-right{
