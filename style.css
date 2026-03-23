@@ -6,13 +6,14 @@ body{
   font-family: 'Lora','Noto serf',serif ;
   line-height: 1.7;
 }
+
 main{
   max-width: 1280px;
   height: auto;
   margin: 0 auto;
 }
 
-/* header */
+/* header ヘッダー　*/
 header{
   max-width: 1280px;
   height: auto;
@@ -24,13 +25,16 @@ header{
   gap: 20px;
   list-style: none;
 }
+
 #head-menu a{
   color: #F9F5EC;
 }
+
 a:link{
   color: #F9F5EC;
   text-decoration: none;
 }
+
 a:visited{
   color: #F9F5EC;
   text-decoration: none;
@@ -40,6 +44,7 @@ a:hover{
   text-decoration: underline;
   font-weight: bold;
 }
+
 a:active{
   color: #B6CBBD;
   text-decoration: underline;
@@ -52,6 +57,7 @@ a:active{
   background-size: cover;
   padding: 80px;
 }
+
 .hero-title{
   width: 50%;
   height: auto;
@@ -60,27 +66,35 @@ a:active{
   font-weight: bold;
   color: #F9F5EC;
 }
+
 .hero-text{
   line-height: 2;
   color: #F9F5EC;
   font-weight: bold;
 }
 
+.hamburger {
+  display: block;
+}
+.drawer-nav {
+  display: block;
+}
 
-
-/* sec-01*/
+/* sec-01　セクション01*/
 .sec-01{
   max-width: 1280px;
   height: auto;
   background-color: #B6CBBD;
     padding: 100px;
 }
+
 .sec-01list{
   display: flex;
   gap: 20px;
   font-size: 14px;
   line-height: 1.6;
 }
+
 .title{
   color: #4B4B4B;
   width: 300px;
@@ -90,22 +104,25 @@ a:active{
   font-size: 24px;
   font-weight: bold;
   align-items: center;
-  }
+}
 
 .space-right{
   margin-left: 15px;
   font-size: 18px;
 }
+
 .icon{
   width: 60px;
   height: auto;
   padding-right: 15px;
 }
+
 .flex{
   display: flex;
   justify-content: center;
   gap: 3%;
 }
+
 .box-shadow{
   width: calc(33.333% - 20px);
   height: 450px;
@@ -133,7 +150,7 @@ a:active{
   background-size: 100% 50%;
 }
 
-/* sec-02*/
+/* sec-02　セクション02*/
 .sec-02{
   max-width: 1280px;
   height: auto;
@@ -141,6 +158,7 @@ a:active{
   background-color: #f9f5ec;
   font-family: 'Noto Serif', serif;
 }
+
 .sec-02 .title {
   font-size: 28px;
   font-weight: bold;
@@ -153,11 +171,13 @@ a:active{
   width: 30px;
   margin-right: 10px;
 }
+
 .sec-02 p {
   font-size: 16px;
   line-height: 1.7;
   margin-bottom: 40px;
 }
+
 .card{
   width: calc((100% - 40px) / 3); /* gap 2つ分 20px × 2 = 40px を引く */
   height: 35%;
@@ -260,6 +280,7 @@ a:active{
   transform: translateY(-5px); /* 上に5px移動 */
   text-shadow: 0px 5px 10px rgba(0,0,0,0.3); /* 下に影をつける */
 }
+
 .lift-up1 {
   transition: all 0.3s ease; /* ふんわり変化させる */
   display: block;
@@ -270,7 +291,7 @@ a:active{
   text-shadow: 0px 5px 10px rgba(0,0,0,0.3); /* 下に影をつける */
 }
 
-/* sec-03*/
+/* sec-03　セクション03*/
 .sec-03{
   max-width: 1280px;
   height: auto;
@@ -278,6 +299,7 @@ a:active{
   padding: 100px;
   /* background-color: rgba(255, 255, 255, 0.25); */
 }
+
 .box3{
   width: 300px;
   height: auto;
@@ -300,30 +322,35 @@ a:active{
 	background-color : rgba(0, 0, 0, 0);
 	background : transparent;
 }
+
 .slider_wrap{
   margin: 0 auto;
   width: 100%;
 }
+
 .slider img{
   width: 95%;
 }
 
-/* sec-04*/
+/* sec-04　セクション04*/
 /* contact */
 .footer-contact{
   margin-top: 40px;
 }
+
 .footer-right{
   text-align: center;
   margin-top: 15px;
   font-size: 14px;
   color: #666;
 }
+
 nav{
   line-height: 2.5;
   letter-spacing: 3px; 
 
 }
+
 .footer-nav ul{
   display: flex;
   justify-content: center;
@@ -334,19 +361,23 @@ nav{
   color: #4b4b4b;
   font-size: 20px;
 }
+
 .footer-nav a:link{
   color: #4b4b4b;
   text-decoration: none;
 }
+
   a:visited{
   color: #4b4b4b;
   text-decoration: none;
 }
+
 .footer-nav a:hover{
   color: #B6CBBD;
   text-decoration: underline;
   font-weight: bold;
 }
+
 .footer-nav a:active{
   color: #B6CBBD;
   text-decoration: underline;
@@ -355,34 +386,41 @@ nav{
 .footer-nav{
   align-items: center;
 }
+
 .footer-nav a{
   text-decoration: none;
   color: #333;
 }
+
 .footer-nav ul{
   list-style: none;
   gap: 10px;
 }
+
 .sec-04 form {
   max-width: 700px;  /* フォーム幅 */
   margin: 0 auto;
 }
+
 .Required{
   margin-left: 5px;
   padding: 2px;
   color: #F9F5EC;
   background-color: #B8001F;
 }
+
 .any{
   margin-left: 5px;
   padding: 2px;
   color: #F9F5EC;
   background-color: gray;
 }
+
 .sec-04 table{
   width: 100%;
   border-collapse: collapse;
 }
+
 .sec-04 th{
   width: 30%;
   text-align: left;
@@ -390,6 +428,7 @@ nav{
   padding: 10px;
   font-weight: normal;
 }
+
 th div{
   display: flex;
   justify-content: flex-end;
@@ -397,9 +436,11 @@ th div{
   align-items: center;
   color: black;
 }
+
 .sec-04 td{
   padding: 10px;
 }
+
 .sec-04 input[type="text"],
 .sec-04 input[type="email"],
 .sec-04 textarea {
@@ -410,6 +451,7 @@ th div{
   font-size: 14px;
   box-sizing: border-box;
 }
+
 .sec-04 textarea {
   min-height: 120px;
   resize: vertical;
@@ -436,6 +478,7 @@ th div{
   margin-top: 30px;
   margin: 0 auto;
 }
+
 .ue a {
   text-decoration: none;
   color: #333;
@@ -452,13 +495,16 @@ th div{
   color: #FCFAEE;
   text-align: center;
 }
+
 #nav-drawer {
   position: relative;
 }
+
 .drawer-nav{
   color: #4B4B4B;
   background-color: #B6CBBD;
 }
+
 .sec-04 {
   padding: 60px 20px;
   background-color: #f9f5ec;
@@ -473,6 +519,7 @@ th div{
   overflow: hidden;
   display: block;
 }
+
 .sec-04 canvas {
   position: absolute;
   top: 0;
@@ -484,6 +531,7 @@ th div{
   position: relative;
   z-index: 1;
 }
+
 .ue1 {
   color: #4b4b4b;
   padding: 0.7em 1.7em;
@@ -500,10 +548,12 @@ th div{
   color: #4b4b4b;
   box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
 }
+
 /* ----------------------------
    PC（1280px以上）3列固定
 ---------------------------- */
 @media (min-width: 1280px) {
+
   .sec-01list {
     display: flex;
     gap: 20px;
@@ -521,11 +571,13 @@ th div{
     box-sizing: border-box;
   }
 }
+
 /* タブレット2列 */
 @media (max-width: 1279px) {
   .cards {
     flex-wrap: wrap;
   }
+
   .card {
     width: calc((100% - 15px) / 2); /* gap 15px */
   }
@@ -537,14 +589,23 @@ th div{
     flex-direction: column;
     gap: 10px;
   }
+
   .card {
     width: 100%;
   }
 }
+
 /* ----------------------------
    タブレット（769px〜1279px）2列表示
 ---------------------------- */
 @media (min-width: 769px) and (max-width: 1279px) {
+  .hamburger {
+    display: none;   /* ← ハンバーガー消す */
+  }
+  .drawer-nav {
+    display: flex;   /* ← 通常メニュー表示 */
+  }
+
   .sec-01list {
     display: flex;
     flex-wrap: wrap;
@@ -559,6 +620,7 @@ th div{
     padding: 15px;
     box-sizing: border-box;
   }
+
   .marker{
   font-size: 16px;
   background-image: repeating-linear-gradient(-45deg,
@@ -567,13 +629,16 @@ th div{
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 100% 50%;
-}
+  }
+
   .sec-04 .title {
     font-size: 24px;
   }
+
   .sec-04 th {
     width: 35%;
   }
+
   .sec-04 input, .sec-04 textarea {
     font-size: 13px;
   }
@@ -581,10 +646,8 @@ th div{
 
 /* タブレット（768px以下） */
 @media screen and (max-width:768px) {
-#head-menu{
-  display: none;
-}
-.sec-01list {
+
+  .sec-01list {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -597,10 +660,12 @@ th div{
     padding: 10px;
     box-sizing: border-box;
   }
+
   .card {
     width: calc(50% - 10px); /* 2列表示 */
     margin-bottom: 20px;
   }
+
   .sec-02 .title {
     font-size: 24px;
   }
@@ -608,6 +673,7 @@ th div{
   .sec-02 p {
     font-size: 15px;
   }
+
  /* ----------------------------
    全体
 ---------------------------- */
@@ -615,10 +681,10 @@ th div{
   padding: 60px 20px;
   background-color: #f9f5ec;
   text-align: center;
-}
+  }
 
 /* タイトル */
-.sec-04 .title {
+  .sec-04 .title {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 40px;
@@ -626,10 +692,10 @@ th div{
   justify-content: center;
   align-items: center;
   gap: 10px;
-}
-.sec-04 .title .icon {
+  }
+  .sec-04 .title .icon {
   width: 30px;
-}
+  }
 
 
   .sec-04 form {
@@ -702,6 +768,24 @@ th div{
 
   .modal-content {
     padding: 15px;
+  }
+}
+.hamburger {
+  display: block;
+}
+
+.nav {
+  display: block;
+}
+
+/* PC */
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;   /* ← ハンバーガー消す */
+  }
+
+  .drawer-nav {
+    display: none; 
   }
 }
 /* ----------------------------
