@@ -6,7 +6,6 @@ body{
   font-family: 'Lora','Noto serf',serif ;
   line-height: 1.7;
 }
-
 main{
   max-width: 1280px;
   height: auto;
@@ -25,27 +24,22 @@ header{
   gap: 20px;
   list-style: none;
 }
-
 #head-menu a{
   color: #F9F5EC;
 }
-
 a:link{
   color: #F9F5EC;
   text-decoration: none;
 }
-
 a:visited{
   color: #F9F5EC;
   text-decoration: none;
 }
-
 a:hover{
   color: #B6CBBD;
   text-decoration: underline;
   font-weight: bold;
 }
-
 a:active{
   color: #B6CBBD;
   text-decoration: underline;
@@ -58,7 +52,6 @@ a:active{
   background-size: cover;
   padding: 80px;
 }
-
 .hero-title{
   width: 50%;
   height: auto;
@@ -67,12 +60,13 @@ a:active{
   font-weight: bold;
   color: #F9F5EC;
 }
-
 .hero-text{
   line-height: 2;
   color: #F9F5EC;
   font-weight: bold;
 }
+
+
 
 /* sec-01*/
 .sec-01{
@@ -81,14 +75,12 @@ a:active{
   background-color: #B6CBBD;
     padding: 100px;
 }
-
 .sec-01list{
   display: flex;
   gap: 20px;
   font-size: 14px;
   line-height: 1.6;
 }
-
 .title{
   color: #4B4B4B;
   width: 300px;
@@ -104,19 +96,16 @@ a:active{
   margin-left: 15px;
   font-size: 18px;
 }
-
 .icon{
   width: 60px;
   height: auto;
   padding-right: 15px;
 }
-
 .flex{
   display: flex;
   justify-content: center;
   gap: 3%;
 }
-
 .box-shadow{
   width: calc(33.333% - 20px);
   height: 450px;
@@ -152,7 +141,6 @@ a:active{
   background-color: #f9f5ec;
   font-family: 'Noto Serif', serif;
 }
-
 .sec-02 .title {
   font-size: 28px;
   font-weight: bold;
@@ -165,13 +153,11 @@ a:active{
   width: 30px;
   margin-right: 10px;
 }
-
 .sec-02 p {
   font-size: 16px;
   line-height: 1.7;
   margin-bottom: 40px;
 }
-
 .card{
   width: calc((100% - 40px) / 3); /* gap 2つ分 20px × 2 = 40px を引く */
   height: 35%;
@@ -301,7 +287,8 @@ a:active{
 }
 
 /* スライダー */
-.slick_arrow{
+.slick_arrow
+{
 	width : 60px;
 	height : 60px;
 	border : 4px solid #000;
@@ -313,12 +300,10 @@ a:active{
 	background-color : rgba(0, 0, 0, 0);
 	background : transparent;
 }
-
 .slider_wrap{
   margin: 0 auto;
   width: 100%;
 }
-
 .slider img{
   width: 95%;
 }
@@ -334,7 +319,6 @@ a:active{
   font-size: 14px;
   color: #666;
 }
-
 nav{
   line-height: 2.5;
   letter-spacing: 3px; 
@@ -350,23 +334,19 @@ nav{
   color: #4b4b4b;
   font-size: 20px;
 }
-
 .footer-nav a:link{
   color: #4b4b4b;
   text-decoration: none;
 }
-
   a:visited{
   color: #4b4b4b;
   text-decoration: none;
 }
-
 .footer-nav a:hover{
   color: #B6CBBD;
   text-decoration: underline;
   font-weight: bold;
 }
-
 .footer-nav a:active{
   color: #B6CBBD;
   text-decoration: underline;
@@ -375,41 +355,34 @@ nav{
 .footer-nav{
   align-items: center;
 }
-
 .footer-nav a{
   text-decoration: none;
   color: #333;
 }
-
 .footer-nav ul{
   list-style: none;
   gap: 10px;
 }
-
 .sec-04 form {
   max-width: 700px;  /* フォーム幅 */
   margin: 0 auto;
 }
-
 .Required{
   margin-left: 5px;
   padding: 2px;
   color: #F9F5EC;
   background-color: #B8001F;
 }
-
 .any{
   margin-left: 5px;
   padding: 2px;
   color: #F9F5EC;
   background-color: gray;
 }
-
 .sec-04 table{
   width: 100%;
   border-collapse: collapse;
 }
-
 .sec-04 th{
   width: 30%;
   text-align: left;
@@ -417,7 +390,6 @@ nav{
   padding: 10px;
   font-weight: normal;
 }
-
 th div{
   display: flex;
   justify-content: flex-end;
@@ -425,11 +397,9 @@ th div{
   align-items: center;
   color: black;
 }
-
 .sec-04 td{
   padding: 10px;
 }
-
 .sec-04 input[type="text"],
 .sec-04 input[type="email"],
 .sec-04 textarea {
@@ -440,7 +410,6 @@ th div{
   font-size: 14px;
   box-sizing: border-box;
 }
-
 .sec-04 textarea {
   min-height: 120px;
   resize: vertical;
@@ -467,7 +436,6 @@ th div{
   margin-top: 30px;
   margin: 0 auto;
 }
-
 .ue a {
   text-decoration: none;
   color: #333;
@@ -484,16 +452,13 @@ th div{
   color: #FCFAEE;
   text-align: center;
 }
-
 #nav-drawer {
   position: relative;
 }
-
 .drawer-nav{
   color: #4B4B4B;
   background-color: #B6CBBD;
 }
-
 .sec-04 {
   padding: 60px 20px;
   background-color: #f9f5ec;
@@ -508,7 +473,6 @@ th div{
   overflow: hidden;
   display: block;
 }
-
 .sec-04 canvas {
   position: absolute;
   top: 0;
@@ -520,7 +484,6 @@ th div{
   position: relative;
   z-index: 1;
 }
-
 .ue1 {
   color: #4b4b4b;
   padding: 0.7em 1.7em;
@@ -667,6 +630,7 @@ th div{
 .sec-04 .title .icon {
   width: 30px;
 }
+
 
   .sec-04 form {
     width: 100%;
