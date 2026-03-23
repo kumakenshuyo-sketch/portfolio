@@ -4,174 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-   <header>
-        <div class="header-sp">
-            <div class="logo-area">
-                <img class="img-header" src="images/KUMAZAKI SHOKO.png" alt="ロゴ" >
-            </div>
-            <div class="header-logo-menu">
-                <div id="nav-drawer">
-                    <input id="nav-input" type="checkbox" class="nav-unshown">
-                    <label id="nav-open" for="nav-input"><span></span></label>
-                    <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-                    <div id="nav-content">
-                        <ul>
-                            <li><a href="index.html#Profile"><img class="icon" src="images/icon_a.png" alt="人物のアイコン" target="_blank"> Profile</a></li>
-                            <li><a href="index.html#About"><img class="icon" src="images/icon_b.png" alt="豆電球のアイコン" target="_blank"> About</a></li>
-                            <li><a href="index.html#Works"><img class="icon" src="images/icon_pc.png" alt="ノート㍶のアイコン" target="_blank"> Works</a></li>
-                            <li><a href="index.html#Contact"><img class="icon" src="images/icon_mail.png" alt="メールのアイコン" target="_blank"> Contact</a></li>
-                            <li><a href=""><img class="icon " src="images/icon_e.png" alt="Instagram"><span><img class="icon" src="images/icon_f.png" alt="twitter"></span></a></li>
-                        </ul>                    
-                    </div>
-                </div>        
-            </div>
-        </div>
-    </header>
-  
-    <div class="container">
-        <div class="left-side ">        
-            <h1>Kumazaki<br>
-                Shoko
-            </h1>
-            <nav id="nav-pc">
+<body class="drawer drawer--right">
+    <header id="header">
+        <div class="hero-top">
+            <div id="head-menu">
                 <ul>
-                    <li><a href="index.html#Profile"><img class="icon" src="images/icon_a.png" alt="人物のアイコン" target="_blank"> Profile</a></li>
-                    <li><a href="index.html#About"><img class="icon" src="images/icon_b.png" alt="豆電球のアイコン" target="_blank"> About</a></li>
-                    <li><a href="index.html#Works"><img class="icon" src="images/icon_pc.png" alt="ノート㍶のアイコン" target="_blank"> Works</a></li>
-                    <li><a href="index.html#Contact"><img class="icon" src="images/icon_mail.png" alt="メールのアイコン" target="_blank"> Contact</a></li>
-                    <li><a href=""><img class="icon " src="images/icon_e.png" alt="Instagram"><span><img class="icon" src="images/icon_f.png" alt="twitter"></span></a></li>
+                    <li><a href="index.html#Profile">Profile</a></li>
+                    <li><a href="index.html#About"> About</a></li>
+                    <li><a href="index.html#Works">Works</a></li>
+                    <li><a href="index.html#Contact">Contact</a></li>
+                </ul>                    
+            </div>
+            <div class="hero-title">
+                <span id="typed"></span>
+            </div>
+            <p class="hero-text">はじめまして、くまざき しょうこと申します。<br>
+                webデザイン制作のご要望がありましたら、<br>
+                ぜひお問い合わせフォームよりご連絡ください。
+            </p>
+        </div>
+        <div role="banner" class="hamburger">
+            <button type="button" class="drawer-toggle drawer-hamburger">
+                <span class="sr-only">toggle navigation</span>
+                <span class="drawer-hamburger-icon"></span>
+            </button>
+            <nav class="drawer-nav" role="navigation">
+                <div class="moji" > MENU</div>
+                <ul class="drawer-menu">
+                    <li><a class="drawer-menu-item" href="index.html#Profile">Profile</a></li>
+                    <li><a class="drawer-menu-item" href="index.html#About">About</a></li>
+                    <li><a class="drawer-menu-item" href="index.html#Works">Works</a></li>
+                    <li><a class="drawer-menu-item" href="index.html#Contact">Contact</a></li>
                 </ul>
             </nav>
-            <footer>
-                <div  class="footer-left">
-                    Kumazaki Shoko Portfolio 2026
-                </div>
-            </footer>
         </div>
-        <div class="right-side ">
-            <section class="sec01" id="Profile">
-                <div class="title"><img class="icon" src="images/icon_ab.png" alt="人物のアイコン"> Profile <span class="space-right">自己紹介</span></div>
-                <div class="box1 flex2">
-                    <img class="sec01-img1" src="images/ilust1.png" alt="女性 名刺を持ったイラスト">
-                    <div class="boxin">
-                        <p>短大を卒業後、主に事務や見積CAD作成など、主に事務職を経験。自分で何かを作る仕事をしたい…漠然とデザイン関係の職業に付けたらと思っていたことを思い出し、職業訓練学校にてWebデザインについて学びました。今後はさらにWebデザインの知識や技術をスキルアップしていき、お客様に喜んでいただけるお仕事を目指します。</p>               
-                    </div>
+    </header>
+    <section class="sec-01" id="Profile">
+        <div class="title"><img class="icon" src="images/pulse.svg" alt="ボールのアイコン"> Profile <span class="space-right">自己紹介</span></div>                   
+            <div class="sec-01list">
+                <div class="box-shadow">
+                    <img class="item" src="images/1567413310.png" alt="">
+                    <p><span>短大を卒業後、事務や見積CAD作成など、主に事務職を経験。裏方側の視点から、細かい部分まで共感できる文章やデザインを考え、制作に活かします。</span></p>               
                 </div>
-                <div class="flex">
-                    <div class="box2 flex">
-                        <img class="sec01-img2" src="images/ilust2.png" alt="女性 pcを使うイラスト">
-                        <div class="boxin">
-                            <h3>思考</h3>
-                            <p>
-                                誠実さを大事にします。<br>
-                                丁寧に、責任を持って<br>
-                                対応します。
-                            </p>               
-                        </div>
-                    </div>
-                    <div class="box2 flex">
-                        <img class="sec01-img2" src="images/ilust3.png" alt="女性 走り始めるイラスト">
-                        <div class="boxin">
-                            <h3>行動</h3>
-                            <p>
-                                学生時代にスポーツ部に所属。<br>
-                                体力には自信があります。<br>
-                                フットワークは軽いほうです！
-                            </p>               
-                        </div>
-                    </div>
+                <div class="box-shadow">
+                    <img class="item" src="images/1533000576-2.png" alt="">
+                    <p><span>自分で何かを作る仕事をしたい。高校の頃にデザイン関連の職に就きたいという夢を思い出し…Webデザインの職業訓練学校へ入校し、勉強しました。</span></p>               
                 </div>
-            </section>
-            <section class="sec02" id="About">                
-                <div class="title"><img class="icon" src="images/icon_bb.png" alt="豆電球のアイコン"> About<span class="space-right">思い</span></div>
-                <div class="box1 flex2">
-                    <img class="sec02-img1" src="images/ilust4.png" alt="女性 名刺を持ったイラスト">
-                    <div class="boxin">
-                        <p>
-                            職業訓練学校では、Web制作に必要なデザインリテラシーを習得し、Webサイト制作に必要なワイヤーフレーム設計をはじめとしたWebフロントエンド開発の全般を理解し、実装
-                            を目指し、訓練をしていました。<br>
-                            〔使用ソフト・言語〕<br>
-                             HTML・CSS・JavaScript<br>
-                             JQuery・BootStrap
-                        </p>               
-                    </div>
+                <div class="box-shadow">
+                    <img class="item" src="images/1544004286.png" alt="">
+                    <p><span>今後はさらにWebデザインの知識や技術をスキルアップしていき、お客様がWebを制作して良かったと実感、喜んでいただけるお仕事を目指します。</span></p>               
                 </div>
-                <div class="box1 flex2">
-                    <img class="sec02-img1" src="images/ilust5.png" alt="女性 名刺を持ったイラスト">
-                    <div class="boxin">
-                        <h3>
-                            「デザイン」を通して、<br>
-                             日々の生活を たのしく、豊かに！
-                        </h3>
-                        <p>
-                            お客様の要望をしっかりお聞きし、伝えたい内容を丁寧、かつ正確にユーザーへお届けしたい。ユーザーがスマホを手にしたとき、どのようなデザインが最適かを精一杯考えます。
-                        </p>               
-                    </div>
-                </div>            
-            </section>
-            <section class="sec03" id="Works">
-                <div class="title"><img class="icon" src="images/icon_cb.png" alt="ノート㍶のアイコン"> Works<span class="space-right">作品</span></div>
-                <div class="flex3">
-                    <div class="box3">
-                        <img class="sec03-img1" src="images/work3.png" alt="">
-                        <p>架空喫茶店サイト</p>
-                    </div>                
-                    <div class="box3">
-                        <img class="sec03-img1" src="images/work4.png" alt="">
-                        <p>架空会社サイト</p>
-                    </div>                
-                </div>
-                <div class="flex3">
-                    <div class="box3">
-                        <img class="sec03-img1" src="images/work5.png" alt="">
-                        <p>居酒屋サイト</p>
-                    </div>                
-                    <div class="box3">
-                        <img class="sec03-img2" src="images/ilust6.png" alt="">
-                        <p>制作後差し込み</p>
-                    </div>                
-                </div>
-                <div class="flex3">
-                    <div class="box3">
-                        <img class="sec03-img2" src="images/ilust6.png" alt="">
-                        <p>制作後差し込み</p>
-                    </div>                
-                    <div class="box3">
-                        <img class="sec03-img2" src="images/ilust6.png" alt="">
-                        <p>制作後差し込み</p>
-                    </div>                
-                </div>
-            </section>
-            <section class="sec04" id="Contact">
-                <div class="title"><img class="icon" src="images/icon_db.png" alt="メールのアイコン"> Contact<span class="space-right">お問い合わせ</span></div>                
-                <div class="box1">
-                    <div class="flex2">
-                        <img class="sec01-img1" src="images/ilust7.png" alt="女性 名刺を見せるイラスト">
-                        <div class="boxin">
-                            <p>
-                                ご連絡やご相談など<br>
-                                お気軽にお問い合わせください
-                            </p>
-                            <div class="maximalist-card">
-                                <a href="contact.html" target="-blank">
-                                    お問い合わせはこちら
-                                </a>
-                            </div>
-                        </div>            
-                    </div>                    
-                </div>
-                <div class="ue">
-                    <a class="ue1" href="index.html#Profile"><img class="icon" src="images/Group.png" alt="矢印アイコン"> トップページへ</a>
-                </div>
-            </section>
+            </div>
         </div>
-    </div>
- 
+    </section>
+    <section class="sec-02" id="About">
+        <div class="title">
+            <img class="icon" src="images/pulse.svg" alt="ボールのアイコン"> 
+            About <span class="space-right">意欲</span>
+        </div>                   
+        <p>「デザイン」を通して、日々の生活をたのしく、豊かに！<br>
+            次の３つを大事にしながら、取り組みます。</p>
+        
+        <div class="cards">
+            <div class="card cen lift-up"
+            data-title="Hearing"
+            data-detail="お客様の要望をしっかりお聞きし、伝えたい内容を丁寧、かつ正確にユーザーへお届けしたい。ユーザーがスマホを手にしたとき、どのようなデザインが最適かをとことん考えます。">
+            <img class="card-img" src="images/1544077817.png">
+            <p>▶ Hearing</p>
+        </div>
+        <div class="card cen lift-up"
+            data-title="Action"
+            data-detail="中学、高校とバスケットボールを経験。体力には自信があります。フットワークは軽く、ご要望に沿って挑戦します。">
+            <img class="card-img" src="images/1524555768.png">
+            <p>▶ Action</p>
+        </div>
+        <div class="card cen lift-up"
+            data-title="Study"
+            data-detail="職業訓練学校では、Web制作に必要なデザインリテラシーを習得し、Webサイト制作に必要なワイヤーフレーム設計をはじめとしたWebフロントエンド開発の全般を理解し、実装を目指し、訓練をしていました。今後も必要な知識を取り入れていきます。使用ソフト・言語 HTML・CSS・JavaScript,JQuery・BootStrap">
+            <img class="card-img" src="images/1530690025-1.png">
+            <p>▶ Study</p>
+        </div>
+        <!-- モーダル -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modal-img">
+                <h2 id="modal-title"></h2>
+                <p id="modal-detail"></p>
+            </div>
+        </div>
+    </section>
+    <section class="sec-03" id="Works">
+        <div class="title">
+            <img class="icon" src="images/pulse.svg" alt="ボールのアイコン"> 
+            Works<span class="space-right">作品</span>
+        </div>
+        <div class="slider_wrap">
+            <div class="slider">
+                <div class="box3">
+                    <img class="sec03-img" src="images/Group 106.png" alt="">
+                    <p>架空喫茶店サイト</p>
+                </div>                
+                <div class="box3">
+                    <img class="sec03-img" src="images/Group 99.png" alt="">
+                    <p>架空会社サイト</p>
+                </div>    
+                <div class="box3">
+                    <img class="sec03-img" src="images/Rectangle 77.png" alt="">
+                    <p>居酒屋サイト</p>
+                </div> 
+                <div class="box3">
+                    <img class="sec03-img" src="images/Group 110.png"alt="">
+                    <p>Coming Soon</p>
+                </div>                   
+            </div>
+        </div>
+    </section>
+    <section class="sec-04" id="Contact">
+        <div class="title">
+            <img class="icon" src="images/pulse.svg" alt="ボールのアイコン"> Contact<span class="space-right">お問い合わせ</span>
+        </div>
+        <div class="google-form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgQoik9KHGlTm0gK_UBOPLcrFbbuOtNf7K9SZPiKjX11vYmQ/viewform?embedded=true" width="500" height="600" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>  
+        </div>
+        <div class="ue lift-up1">
+            <a href="index.html#header"><button class="ue1">トップページへ</button></a>
+        </div>
+        <div class="footer-contact">    
+            <nav  class="footer-nav">
+                <ul  class="flex">
+                    <li><a href="index.html#Profile">Profile</a></li>
+                    <li><a href="index.html#About"> About</a></li>
+                    <li><a href="index.html#Works">Works</a></li>
+                    <li><a href="index.html#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div  class="footer-right">
+            Kumazaki Shoko Portfolio 2026
+        </div>   
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-roundabout/2.4.2/jquery.roundabout.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
+
+    <script src="main.js"></script>
 </body>
 </html>
